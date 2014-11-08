@@ -1,5 +1,5 @@
 Best Shell - 160
-################
+================
 
 ### Desc:
 This shell is super useful! See if you can get the flag! The binary can be found at /home/best_shell/ on the shell server.
